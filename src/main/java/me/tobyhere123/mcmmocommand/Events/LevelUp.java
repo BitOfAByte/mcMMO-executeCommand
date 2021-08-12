@@ -24,7 +24,7 @@ public class LevelUp implements Listener {
         int woodCutting = ExperienceAPI.getLevel(player, PrimarySkillType.WOODCUTTING);
         if (woodCutting == (int) getPlugin().getConfig().get("values.requiredWoodCuttingLevel")) {
             ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
-            Bukkit.dispatchCommand(console, "say Hello " + player.getName());
+            Bukkit.dispatchCommand(console, "ultimatetimber give " + player.getName());
         }
     }
 
