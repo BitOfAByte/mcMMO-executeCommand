@@ -3,3 +3,12 @@ version: ${project.version}
 main: me.tobyhere123.mcmmocommand.Main
 api-version: 1.17
 authors: [ Tobyhere123 ]
+depend:
+  - LuckPerms
+  - mcMMO
+commands:
+  checklevel:
+    aliases: ['cl']
+    description: checks your mcmmo woodcutting level
+  level:
+    aliases: ['lvl']

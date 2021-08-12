@@ -1,0 +1,22 @@
+# # # # # # # # # # # # # # # #
+#     McMMoExecuteCommand     #
+#      Made by DontCareDevs   #
+#
+#
+
+
+messages:
+  noperms: "§cYou do not permission for this command!"
+  playerOnly: "§cCan't execute from console...."
+  DisabledPlugin: "§cYou didn't install LuckPerms or mcMMo... Plugin has been disabled..."
+
+
+
+values:
+  requiredWoodCuttingLevel: 75
+  command: say it's working betch
+
+permissions:
+  checkLevel: mcmmoexecutecommand.checklevel.use
+  level: mcmmoexecutecommand.level.use
+
