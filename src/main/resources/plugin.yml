@@ -1,0 +1,5 @@
+name: McMMoCommand
+version: ${project.version}
+main: me.tobyhere123.mcmmocommand.Main
+api-version: 1.17
+authors: [ Tobyhere123 ]
