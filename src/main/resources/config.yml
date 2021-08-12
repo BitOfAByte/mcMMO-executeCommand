@@ -13,8 +13,7 @@ messages:
 
 
 values:
-  requiredWoodCuttingLevel: 75
-  command: say it's working betch
+  requiredWoodCuttingLevel: 7
 
 permissions:
   checkLevel: mcmmoexecutecommand.checklevel.use
