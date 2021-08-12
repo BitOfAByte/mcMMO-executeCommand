@@ -7,8 +7,4 @@ depend:
   - LuckPerms
   - mcMMO
 commands:
-  checklevel:
-    aliases: ['cl']
-    description: checks your mcmmo woodcutting level
-  level:
-    aliases: ['lvl']
+  skills:

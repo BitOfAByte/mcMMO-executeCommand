@@ -1,5 +1,6 @@
 package me.tobyhere123.mcmmocommand;
 
+import me.tobyhere123.mcmmocommand.Commands.SkillsCommand;
 import me.tobyhere123.mcmmocommand.Events.ChatEvent;
 import me.tobyhere123.mcmmocommand.Events.JoinEvent;
 import me.tobyhere123.mcmmocommand.Events.LevelUp;
@@ -19,6 +20,7 @@ public final class Main extends JavaPlugin {
             Bukkit.getConsoleSender().sendMessage((getConfig().getString("messages.DisabledPlugin")));
         } else {
             loadEvents();
+            new SkillsCommand();
         }
     }
 
